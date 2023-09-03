@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Orbitron&family=Oswald:wght@700&family=Roboto&family=Satisfy&family=Tektur&display=swap');
+
+@font-face {
+    font-family: 'hotline';
+    src: url('caminho/para/minha-fonte.woff2') format('woff2'),
+        url('caminho/para/minha-fonte.woff') format('woff');
+    /* Outras propriedades (normal, negrito, itálico, etc.) aqui */
+}
+
+body {
+    margin: 0;
+
+    background-color: #0c0c0c;
+
+}
+
+a {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+p {
+    margin: 0.2rem;
+}
+
+/* Menu */
+
+header {
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+
+    background-color: #010101;
+}
+
+.logo.menu {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.loguinho {
+    width: auto;
+    height: 90%;
+
+    margin-left: 15%;
+}
+
+.base.menu {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.button.menu {
+    width: 95%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.button.control {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    color: aliceblue;
+
+    transition: font-size 0.2s ease, color 0.4s ease, text-shadow 0.4s ease;
+}
+
+.button.control:hover {
+    color: white;
+    font-size: 1.44rem;
+    text-shadow: 0rem 0rem 0.4rem rgba(255, 255, 255, 0.692);
+}
+
+/* End Menu */
+
+/* Container */
+
+.centralizar {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+
+    box-shadow: 0rem 0rem 0.3rem 0.3rem #010101b7;
+    background-color: #060606d4;
+}
+
+.coisa1 {
+    width: 20%;
+    height: 18rem;
+
+}
+
+.title.v1 {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Oswald';
+    font-size: 2.4rem;
+    color: white;
+
+    text-shadow: 0rem 0rem 0.3rem rgba(255, 255, 255, 0.618);
+}
+
+.text.v1 {
+    width: 80%;
+    height: auto;
+
+    font-family: 'Lato';
+    font-size: 1.2rem;
+    color: white;
+
+    text-shadow: 0rem 0rem 0.25rem rgba(255, 255, 255, 0.618);
+    text-align: justify;
+
+    margin: auto;
+}
+
+.text.v2 {
+    width: 70%;
+    height: auto;
+
+    font-family: 'Lato';
+    font-size: 1.2rem;
+    color: white;
+
+    text-shadow: 0rem 0rem 0.25rem rgba(255, 255, 255, 0.618);
+    text-align: justify;
+
+    margin: auto;
+
+    font-style: italic;
+}
+
+/* End Container */
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 5rem;
+
+    margin-top: 1rem;
+
+    display: flex;
+
+
+
+    background-color: #010101;
+}
+
+.fim.base {
+    width: 50%;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amor {
+    font-family: 'Montserrat';
+
+    font-size: 0.8rem;
+    color: rgb(195, 186, 186);
+
+    text-shadow: 0rem 0rem 0.4rem rgb(232, 226, 226);
+
+    transition: font-size 0.2s ease, color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.amor:hover {
+    font-size: 0.83rem;
+    color: white;
+    text-shadow: 0rem 0rem 0.2rem rgb(232, 226, 226);
+    font-style: normal;
+}
+
+/* End Footer */
+
+/* Estilos gerais */
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+
+    }
+
+    .start {
+        width: 80%;
+        height: 38rem;
+
+        margin-top: 3rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .coisa1 {
+        display: none;
+    }
+
+    .logo.menu {
+        width: auto;
+    }
+
+    .button.control {
+        font-size: 0.76rem;
+    }
+
+    .button.control:hover {
+        font-size: 0.8rem;
+    }
+
+    .loguinho {
+        height: 3rem;
+    }
+
+    .title.v1 {
+        font-size: 1.5rem;
+    }
+
+    .text.v1 {
+        width: 90%;
+        font-size: 1.0rem;
+    }
+
+    .text.v2 {
+        width: 90%;
+
+        font-size: 0.9rem;
+    }
+
+    .fim.base {
+        width: 100%;
+        align-items: start;
+    }
+
+    .amor {
+        font-size: 0.6rem;
+    }
+
+    .amor:hover {
+        font-size: 0.64rem;
+
+    }
+}
+
+
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #100f0f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #010101;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
