@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Orbitron&family=Oswald:wght@700&family=Roboto&family=Satisfy&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Orbitron&family=Oswald:wght@700&family=Roboto&family=Satisfy&family=Tektur&display=swap');
 
 @font-face {
     font-family: 'hotline';
@@ -126,6 +126,21 @@ header {
     text-shadow: 0rem 0rem 0.3rem rgba(255, 255, 255, 0.618);
 }
 
+.title.v2 {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Dancing Script';
+    font-size: 2.4rem;
+    color: white;
+
+    text-shadow: 0rem 0rem 0.3rem rgba(255, 255, 255, 0.618);
+}
+
 .text.v1 {
     width: 80%;
     height: auto;
@@ -156,6 +171,83 @@ header {
     font-style: italic;
 }
 
+.text.v3{
+    width: 54%;
+    height: auto;
+
+    font-family: 'Dancing Script';
+    font-size: 1.8rem;
+    color: white;
+
+    text-shadow: 0rem 0rem 0.25rem rgba(255, 255, 255, 0.618);
+    text-align: center;
+
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.mode{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+}
+
+.bt.left{
+    width: 50%;
+    height: 5rem;
+
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.bt.right{
+    width: 50%;
+    height: 5rem;
+
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.ei{
+    margin: 1.5rem;
+}
+
+.next.btn{
+    width: 8rem;
+    height: 2.5rem;
+
+    font-family: 'Oswald';
+    color: rgb(210, 216, 221);
+    background-color: #010101;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 0.7rem;
+
+    transition: width 0.2s ease, height 0.2s ease, box-shadow 0.4s ease, color 0.2s ease, background-color 0.2s ease, font-size 0.28s ease;
+}
+
+.next.btn:hover{
+    width: 8.3rem;
+    height: 2.6rem;
+
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 0rem 0rem 0.4rem white;
+
+    background-color: #0c0c0c;
+}
+
 /* End Container */
 
 /* Footer */
@@ -183,7 +275,7 @@ footer {
 }
 
 .amor {
-    font-family: 'Montserrat';
+    font-family: 'Dancing Script';
 
     font-size: 0.8rem;
     color: rgb(195, 186, 186);
@@ -268,6 +360,14 @@ footer {
     .amor:hover {
         font-size: 0.64rem;
 
+    }
+
+    .title.v2{
+        text-align: center;
+    }
+
+    .text.v3{
+        width: 90%;
     }
 }
 
